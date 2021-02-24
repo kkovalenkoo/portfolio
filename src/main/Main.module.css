@@ -1,0 +1,15 @@
+.mainBlock {
+    height: 100vh;
+    background-color: navajowhite;
+}
+
+.greeting {
+    width: 400px;
+    background-color: gainsboro;
+}
+
+.photo {
+    height: 400px;
+    width: 300px;
+    background-color: gainsboro;
+}

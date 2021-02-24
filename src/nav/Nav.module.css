@@ -1,0 +1,5 @@
+.nav {
+    width: 500px;
+    display: flex;
+    justify-content: space-between; /*space-between выравнивает элементы поровну друг от друга, крайние эл. в плотную к краю блока*/
+}

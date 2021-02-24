@@ -1,0 +1,33 @@
+.footerBlock {
+    border: 1px solid;
+    min-height: 180px;
+    background-color: #cea4ec;
+}
+
+.container {
+    height: 80%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.title {
+    background-color: gainsboro;
+}
+
+.footer {
+    border: 1px solid;
+    height: 40px;
+    width: 280px;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+    background-color: thistle;
+    box-sizing: border-box;
+}

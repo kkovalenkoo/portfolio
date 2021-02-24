@@ -1,0 +1,7 @@
+.header {
+    display: flex;
+    justify-content: flex-end; /*выравнивает элементы по главной оси (в данном случае в конец, по оси row)*/
+    align-items: center; /*выравнивает элементы по второстепенной оси (в данном случае по центру, по оси column)*/
+    height: 80px;
+    background-color: #84a6ec;
+}
