@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Portfolio Website </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!--Page Loader Start
+<div class="page-loader">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+Page Loader End-->
+
+<!--Overlay Start-->
+<div class="overlay"></div>
+<!--Overlay End-->
+
+<!--Main start-->
+<div class="main hidden">
+
+    <!--Header Start-->
+    <header class="header">
+        <div class="container">
+            <div class="row flex-end">
+                <button type="button" class="nav-toggler">
+                    <span></span>
+                </button>
+                <nav class="nav">
+                    <div class="nav-inner">
+                        <ul>
+                            <li><a href="#home" class="nav-item link-item">home</a></li>
+                            <li><a href="#about" class="nav-item link-item">about</a></li>
+                            <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
+                            <li><a href="#contact" class="nav-item link-item">contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--Header End-->
+
+    <!--Home Section Start-->
+    <section class="home-section align-items-center" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="home-text">
+                    <p>Hello, I'm</p>
+                    <h1>Yury Kovalenko</h1>
+                    <h2>frontend developer</h2>
+                    <a href="#about" class="btn link-item">more about me</a>
+                    <a href="#portfolio" class="btn link-item">portfolio</a>
+                </div>
+                <div class="home-img">
+                    <div class="img-box">
+                        <img src="img/profile-img.png" alt="profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Home Section End-->
+
+    <!--About Section Start-->
+    <section class="about-section sec-padding" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>about me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-img">
+                    <div class="img-box">
+                        <img src="img/about-img.png" alt="about img">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>Front-End developer with experience in creating SPA using React, Redux, TypeScript, HTML, CSS,
+                        JS.
+                        Now I am improving my skills in this direction. I'm planing to study Node.js, because my next
+                        focus is to become a Full-Stack Developer.
+                        I spend my free time on Codewars or with teaching materials. Open for your suggestions.
+                    </p>
+                    <h3>skills</h3>
+                    <div class="skills">
+                        <div class="skills-item">react</div>
+                        <div class="skills-item">redux</div>
+                        <div class="skills-item">typescript</div>
+                        <div class="skills-item">javascript</div>
+                        <div class="skills-item">html</div>
+                        <div class="skills-item">axios</div>
+                        <div class="skills-item">rest api</div>
+                        <div class="skills-item">unit test</div>
+                        <div class="skills-item">storybook</div>
+                        <div class="skills-item">material UI</div>
+                        <div class="skills-item">git</div>
+                    </div>
+                    <div class="about-tabs">
+                        <button type="button" class="tab-item active" data-target="#education">education</button>
+                        <button type="button" class="tab-item" data-target="#experience">experience</button>
+                    </div>
+
+                    <!--Education Start-->
+                    <div class="tab-content active" id="education">
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <span class="date">2020</span>
+                                <h4>IT-Incubator, <span>Front-End Developer (React, Redux, TypeScript)</span></h4>
+                                <!--<p></p>-->
+                            </div>
+                            <div class="timeline-item">
+                                <span class="date">2005 - 2010</span>
+                                <h4>MIU, <span>Minsk Innovation University</span></h4>
+                                <!--<p></p>-->
+                            </div>
+                        </div>
+                    </div>
+                    <!--Education End-->
+
+                    <!--Experience Start -->
+                    <div class="tab-content" id="experience">
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <span class="date">2021 - present</span>
+                                <h4>Freelance, Front-End</h4>
+                                <p>React development using redux, react-redux, react-router-dom, redux-thunk, axios,
+                                    formik, material UI. Work with Hooks, TypeScript. Refactoring, bug fixing,
+                                    registration and login form creation.
+                                    Reusable components development. Check the correct ness of the code with UnitTests,
+                                    Snaps hot tests and using of Storybook
+                                    for demonstration of individuality in the project. Project architectural solutions
+                                    (layering UI, BLL, DAL)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Experience End -->
+
+                    <a href="cv/CV.Kovalenko_Yura.pdf" target="_blank" class="btn">download CV</a>
+                    <a href="#contact" class="btn link-item">contact me</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About Section End-->
+
+    <!--Portfolio Section Start-->
+    <section class="portfolio-section sec-padding" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>recent work</h2>
+                </div>
+            </div>
+            <div class="row">
+                <!--Portfolio Item Start-->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="img/social-network.jpg" alt="social-network">
+                    </div>
+                    <h3 class="portfolio-item-title">social-network</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aut consequatur culpa, et
+                                ex impedit magni modi necessitatibus perspiciatis quasi.</p>-->
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>technologies used -
+                                    <span>Html, Minimum Css, React, Redux, TypeScript, React-Redux, React-Router-Dom, Redux-Thunk, Axios, Redux-Form, Reselect, Hooks</span>
+                                </li>
+                                <li>view
+                                    <span>
+                                        <a href="https://kkovalenkoo.github.io/social-network/" target="_blank">GitHub Pages</a>
+                                    </span>
+                                </li>
+                                <li>view
+                                    <span>
+                                        <a href="https://github.com/kkovalenkoo/social-network"
+                                           target="_blank">GitHub</a>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="img/todolist.png" alt="todolist">
+                    </div>
+                    <h3 class="portfolio-item-title">todolist</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aut consequatur culpa, et
+                                ex impedit magni modi necessitatibus perspiciatis quasi.</p>-->
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>technologies used -
+                                    <span>Html, Css, TypeScript, ...in Progress</span>
+                                </li>
+                                <li>view
+                                    <span>
+                                        <a href="https://kkovalenkoo.github.io/todolist/" target="_blank">GitHub Pages</a>
+                                    </span>
+                                </li>
+                                <li>view
+                                    <span>
+                                        <a href="https://github.com/kkovalenkoo/todolist" target="_blank">GitHub</a>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="img/excel.jpg" alt="excel">
+                    </div>
+                    <h3 class="portfolio-item-title">excel</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            &lt;!&ndash;<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aut consequatur culpa, et
+                                ex impedit magni modi necessitatibus perspiciatis quasi.</p>&ndash;&gt;
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>technologies used -
+                                    <span>Html, Css, Javascript</span>
+                                </li>
+                                <li>view
+                                    <span>
+                                        <a href="#" target="_blank">GitHub Pages</a>
+                                    </span>
+                                </li>
+                                <li>view
+                                    <span>
+                                        <a href="#" target="_blank">GitHub</a>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>-->
+                <!--Portfolio Item End-->
+            </div>
+        </div>
+    </section>
+    <!--Portfolio Section End-->
+
+    <!--Contact Section Start-->
+    <section class="contact-section sec-padding" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>contact me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <h3>Email</h3>
+                        <p>yvkovalenko1987@gmail.com</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>Phone</h3>
+                        <p>+375 (33) 353-85-69</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>follow me</h3>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://t.me/yrakovalenko" target="_blank"><i class="fab fa-telegram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contact Section End-->
+
+</div>
+<!--Main end-->
+
+<!--Portfolio Item Details Popup Start-->
+<div class="portfolio-popup">
+    <div class="pp-inner">
+        <div class="pp-content">
+            <div class="pp-header">
+                <button type="button" class="btn pp-close"><i class="fas fa-times"></i></button>
+                <div class="pp-thumbnail">
+                    <img src="img/excel.jpg" alt="pp-thumbnail">
+                </div>
+                <h3></h3>
+            </div>
+            <div class="pp-body">
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--Portfolio Item Details Popup End-->
+
+<script src="js/script.js"></script>
+</body>
+</html>
+
+
